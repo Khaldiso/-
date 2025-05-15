@@ -1,0 +1,32 @@
+{
+  "name": "fuel-consumption-calculator",
+  "version": "1.0.0",
+  "description": "A web application to calculate fuel consumption in a factory based on various fuel types and units.",
+  "main": "src/scripts/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "fuel",
+    "calculator",
+    "consumption",
+    "factory"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "jest": "^27.0.6",
+    "babel-loader": "^8.2.3",
+    "babel-core": "^7.0.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
